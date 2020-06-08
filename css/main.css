@@ -2373,7 +2373,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .primary-btn {
-  background: #f8b600;
+  background: #00bb2d;
   line-height: 42px;
   padding-left: 30px;
   padding-right: 30px;
@@ -2427,11 +2427,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .primary-btn.white:hover {
   background: #fff;
-  color: #f8b600;
+  color: #00bb2d;
 }
 
 .primary-btn.white:hover span {
-  color: #f8b600;
+  color: #00bb2d;
 }
 
 .primary-btn.wh {
@@ -2531,7 +2531,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-left .primary-btn {
-  background: #f8b600;
+  background: #00bb2d;
 }
 
 .banner-left .primary-btn:hover {
