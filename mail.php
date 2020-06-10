@@ -1,9 +1,9 @@
 <?php
     $to = 'cdamico18@gmail.com';
-    $name = $_POST["Nombre"];
-    $email= $_POST["Email"];
-    $text= $_POST["Telefono"];
-    $subject= $_POST["Consulta"];
+    $name = $_POST["name"];
+    $email= $_POST["email"];
+    $text= $_POST["text"];
+    $subject= $_POST["subject"];
 
 
 
