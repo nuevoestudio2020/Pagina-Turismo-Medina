@@ -1,9 +1,9 @@
 <?php
     $to = 'turismomedina2020@gmail.com';
-    $name = $_POST["name"];
-    $email= $_POST["email"];
-    $text= $_POST["message"];
-    $subject= $_POST["subject"];
+    $name = $_POST["Nombre"];
+    $email= $_POST["Email"];
+    $text= $_POST["Telefono"];
+    $subject= $_POST["Consulta"];
 
 
 
