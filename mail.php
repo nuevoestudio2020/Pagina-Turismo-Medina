@@ -1,10 +1,10 @@
 <?php
-    $to = 'demo@site.com';
+    $to = 'turismomedina2020@gmail.com';
     $name = $_POST["name"];
     $email= $_POST["email"];
     $text= $_POST["message"];
     $subject= $_POST["subject"];
-    
+
 
 
     $headers = 'MIME-Version: 1.0' . "\r\n";
@@ -18,14 +18,14 @@
         <tr><td>Email: '.$email.'</td></tr>
         <tr><td>phone: '.$subject.'</td></tr>
         <tr><td>Text: '.$text.'</td></tr>
-        
+
     </table>';
 
     if (@mail($to, $email, $message, $headers))
     {
-        echo 'Your message has been sent.';
+        echo 'Su consulta fue enviada.';
     }else{
-        echo 'failed';
+        echo 'Error';
     }
 
 ?>
