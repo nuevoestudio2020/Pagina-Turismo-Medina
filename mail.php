@@ -2,7 +2,7 @@
     $to = 'cdamico18@gmail.com';
     $name = $_POST["name"];
     $email= $_POST["email"];
-    $text= $_POST["text"];
+    $message= $_POST["message"];
     $subject= $_POST["subject"];
 
 
@@ -16,8 +16,8 @@
             <td>'.$name.'  '.$subject.'</td>
         </tr>
         <tr><td>Email: '.$email.'</td></tr>
-        <tr><td>phone: '.$subject.'</td></tr>
-        <tr><td>Text: '.$text.'</td></tr>
+        <tr><td>Telefono: '.$subject.'</td></tr>
+        <tr><td>Consulta: '.$message.'</td></tr>
 
     </table>';
 
