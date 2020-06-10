@@ -1,5 +1,5 @@
 <?php
-    $to = 'turismomedina2020@gmail.com';
+    $to = 'cdamico18@gmail.com';
     $name = $_POST["Nombre"];
     $email= $_POST["Email"];
     $text= $_POST["Telefono"];
